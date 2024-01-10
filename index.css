@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+body {
+    display: flex;
+    justify-content:center;
+	align-items: center;
+    background:url("2.jpg") no-repeat;
+	background-size:cover;
+	background-position:center;
+    min-height:100vh;
+}
+
+.container {
+    width: 575px;
+    height: 415px;
+    justify-content: space-around;
+    background: transparent;
+	border:2px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+	color:#fff;
+	border-radius:10px;
+	padding:30px 40px;
+}
+@font-face{
+    font-family:"Cursed Timer ULiL";
+    src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");
+    font-weight:400;
+    font-style:normal;
+}
+
+.home{
+    position: absolute;
+    top: 68px;
+    left: 85px;
+    right: 341px;
+    width: 149px;
+    height: 36px;
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.home-score-background{
+    box-sizing: border-box;
+    position: absolute;
+    top: 125px;
+    left: 82px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+}
+
+#home-score-el{
+position: absolute;
+width: 117px;
+height: 120px;
+left: 19px;
+top: -2px;
+margin: 0 auto;
+color: #F94F6D;
+text-align: center;
+font-family: Cursed Timer ULiL;
+font-size: 90px;
+font-style: normal;
+font-weight: 400;
+line-height: 127px;
+
+}
+
+#freethrow-home{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 82px;
+}
+
+#twopointer-home{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 136px;
+}
+
+#threepointer-home{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 192px;
+}
+
+.guest{
+    position: absolute;
+    top: 68px;
+    left: 340px;
+    right: 86px;
+    width: 149px;
+    height: 36px;
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.guest-score-background{
+    box-sizing: border-box;
+    position: absolute;
+    top: 125px;
+    left: 337px;
+    right: 83px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+}
+
+#guest-score-el{
+position: absolute;
+width: 117px;
+height: 120px;
+left: 19px;
+top: -2px;
+margin: 0 auto;
+color: #F94F6D;
+text-align: center;
+font-family: Cursed Timer ULiL;
+font-size: 90px;
+font-style: normal;
+font-weight: 400;
+line-height: 127px;
+}
+
+#freethrow-guest{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 337px;
+    bottom: 69px;
+}
+
+#twopointer-guest{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 391px;
+    bottom: 69px;
+}
+
+#threepointer-guest{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    position: absolute;
+    top: 271px;
+    left: 447px;
+    bottom: 69px;
+}
+
+.btn{
+    position:absolute;
+    width: 30px;
+    height: 26px;
+    left: 89px;
+    top: 280px;
+    background:#1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+}
+
+#new-game{
+    width: 200px;
+    top: 340px;
+    left: 185px;
+    position: absolute;
+    padding: 15px 0;
+	text-align: center;
+	margin: 0, 10px;
+	border-radius: 25px;
+	font-weight: bold;
+    font-size:18px;
+	border: 2px solid  #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+}
+
+#new-game:hover{
+    background: #009688;
+    transition:0.5s;
+}
+
+p{
+    width: 400px;
+    background: Black;
+    top: 0px;
+    left: 76px;
+    position:absolute;
+    justify-content:center;
+    text-align: center;
+}

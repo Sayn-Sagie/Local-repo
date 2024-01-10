@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div class = "home-score">
+                <h3 class = "home">HOME</h3>
+                <div class = "home-score-background">
+                   <h2 id = "home-score-el">0</h2>
+                </div>
+                    <button class = "btn" id= "freethrow-home" onclick= "freethrowHome()">+1</button>
+                    <button class = "btn" id= "twopointer-home" onclick= "twopointerHome()">+2</button>
+                    <button class = "btn" id= "threepointer-home" onclick= "threepointerHome()">+3</button>
+            </div>
+            <div class = "guest-score">
+                <h3 class = "guest">GUEST</h3>
+                <div class = "guest-score-background">
+                   <h2 id = "guest-score-el">0</h2>
+                </div>
+                    <button class = "btn" id= "freethrow-guest" onclick= "freethrowGuest()">+1</button>
+                    <button class = "btn" id= "twopointer-guest" onclick= "twopointerGuest()">+2</button>
+                    <button class = "btn" id= "threepointer-guest" onclick= "threepointerGuest()">+3</button>
+                    <button id= "new-game" onclick="newGame()"><span> New Game</span></button>
+            </div>
+            <p id="save-el">Game Score: </p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
